@@ -154,15 +154,6 @@ const TopRightButtons: React.FC<Props> = (props) => {
               })}
             </DropdownMenuContent>
           </DropdownMenu>
-
-          <Button variant="ghost" size="icon" title="Source code" onClick={() => window.open(`https://github.com/p32929/p32929.github.io/`, "_blank")}>
-            <Github className="h-4 w-4" />
-          </Button>
-
-          <Button variant="ghost" size="icon" title="Share" onClick={() => setDialogOpen(true)}>
-            <Share2 className="h-4 w-4" />
-          </Button>
-
         </div>
       </CardContent>
     </Card>
