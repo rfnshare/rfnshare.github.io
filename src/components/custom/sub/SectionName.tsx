@@ -4,7 +4,7 @@ import { combinedInformation } from "@/lib/DynamicValues";
 import { IRoutedSection } from "@/lib/Models";
 import { getValueAtIndex, scrollToView } from "@/lib/utils";
 
-import { ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, Star } from "lucide-react";
+import { ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, SkipBack, SkipForward, Star } from "lucide-react";
 import React from "react";
 
 interface Props {
@@ -40,13 +40,13 @@ const SectionName: React.FC<Props> = (props) => {
           </h1>
         </div>
 
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center lg:hidden">
           <Button variant="ghost" size="icon" onClick={onPrevClicked} title={`Goto ${getPrevSectionName()} Section`}>
-            <ChevronUpIcon className="h-4 w-4" />
+            <SkipBack className="h-4 w-4" />
           </Button>
 
           <Button variant="ghost" size="icon" onClick={onNextClicked} title={`Goto ${getNextSectionName()} Section`}>
-            <ChevronDownIcon className="h-4 w-4" />
+            <SkipForward className="h-4 w-4" />
           </Button>
         </div>
       </div>

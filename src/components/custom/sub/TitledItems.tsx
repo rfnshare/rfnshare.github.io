@@ -33,7 +33,7 @@ const TitledItems: React.FC<Props> = (props) => {
 
             <div className="flex flex-row flex-wrap pl-2 pr-2 w-full">
               {getArr().map((item) => {
-                return <ListItem item={item} />;
+                return <ListItem item={item} title={hitem.text} />;
               })}
             </div>
           </div>
