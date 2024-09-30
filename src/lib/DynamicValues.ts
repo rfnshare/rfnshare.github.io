@@ -51,7 +51,7 @@ class DynamicValues {
                 {
                     title: "Resume",
                     desc: "Click the link icon to view/download",
-                    link: "https://peach-gerianne-57.tiiny.site",
+                    link: "https://aalfaroque.tiiny.site/",
                     logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
                 }
             ]
@@ -59,20 +59,25 @@ class DynamicValues {
         {
             text: "Experiences",
             arr: [
-                {
-                    title: "Quality Up services",
-                    desc: "Software Automation Engineer",
-                    logo: "https://media.licdn.com/dms/image/C4E0BAQF0jXoIA9xGNg/company-logo_200_200/0/1630634011354/qups_usa_logo?e=1720656000&v=beta&t=cLUgFdYUp-1mLujEDFSEE9kYoq2qCbs3S6u6iizAQQ8"
-                },
+                // {
+                //     title: "Quality Up services",
+                //     desc: "Software Automation Engineer",
+                //     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF0jXoIA9xGNg/company-logo_200_200/company-logo_200_200/0/1630634011354/qups_usa_logo?e=1735776000&v=beta&t=cGGeRVmxCyK8xSaoQIS5-4SlrNr5izCGnhhNwy56Ihs"
+                // },
                 {
                     title: "Automation Solutionz",
-                    desc: "SQA Automation Engineer",
+                    desc: "SQA Automation Engineer [Feb 2022 - Aug 2023]",
                     logo: "https://www.zeuz.ai/wp-content/uploads/2019/06/just_logo_ZeuZ-300x298.png"
                 },
                 {
                     title: "উপায় (UCB Fintech Company Limited)",
-                    desc: "SQA Engineer | Executive Officer",
+                    desc: "SQA Engineer | Executive Officer [Aug 2023 - Jun 2024]",
                     logo: "https://www.upaybd.com/images/Upay-logo-revised-new.png"
+                },
+                {
+                    title: "ReliSource Technologies Ltd",
+                    desc: "SQA Engineer [Jun 2024 - Present]",
+                    logo: "https://media.licdn.com/dms/image/v2/C560BAQEEj1V4zXZsaA/company-logo_200_200/company-logo_200_200/0/1630647282621/relisource_logo?e=1735776000&v=beta&t=34hZ9bdMeAE3LDtzmJz_LvgWmLIAF69dZJzDzdJsmD0"
                 },
             ]
         }
