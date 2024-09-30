@@ -2,7 +2,6 @@ import {ICombinedInformation, IDirectMessageItem, IInitialInformation, ITitledLi
 
 class DynamicValues {
     static initialInformation: IInitialInformation = {
-        iconText: "Al",
         name: "Abdullah Al Faroque",
         occupation: "SQA Engineer (Automation)",
     }
@@ -424,7 +423,7 @@ class DynamicValues {
     ]
 }
 
-// 
+//
 // Don't change anything below this line
 // 
 export const combinedInformation: ICombinedInformation = {
